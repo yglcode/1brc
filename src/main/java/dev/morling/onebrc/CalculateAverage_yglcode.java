@@ -29,7 +29,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CalculateAverage_yglcode {
-    public static final int NumStation = 10240; // max num of stations
+    public static final int NumStation = 1024 * 16; // max num of stations
     public static final int MaxDataLen = 32; // max bytes for station name or temperature data
     public static final int MinChunkSize = 16 * 1024 * 1024; // min chunk size
     private static final String FILE = "./measurements.txt";
